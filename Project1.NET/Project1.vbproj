@@ -1,0 +1,414 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>WindowsForms</MyType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC12A377-D095-4EDA-86EC-06694ADB079C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>Project1</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Project1.MDIForm1</StartupObject>
+    <AssemblyMajorVersion>1</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>0</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName> jaGTAP</AssemblyCompanyName>
+    <RootNamespace>Project1</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>Project1.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>Project1.xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data">
+      <Name>Microsoft.VisualBasic.Compatibility.Data</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.VS">
+      <Name>Microsoft.VisualBasic.PowerPacks.VS</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="ADODB">
+      <Guid>{EF53050B-882E-4776-B643-EDA472E8E3F2}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="AxMSComCtl2">
+      <Guid>{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>aximp</WrapperTool>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>aximp</WrapperTool>
+    </COMReference>
+    <COMReference Include="Microsoft.StdFormat">
+      <Guid>{6B263850-900B-11D0-9484-00A0C91110ED}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSAdodcLib">
+      <Guid>{67397AA1-7FB1-11D0-B148-00A0C922E820}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSComCtl2">
+      <Guid>{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSDataReportLib">
+      <Guid>{642AC760-AAB4-11D0-8494-00A0C90DC8A9}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSDATASRC">
+      <Guid>{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="bbb.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>bbb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bbb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bikeDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bikeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataEnvironment1.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataEnvironment2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataEnvironment3.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Form25.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form25.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnimated.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmAnimated.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnimated.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbike.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmbike.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmbike.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCust.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmCust.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCust.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmi.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmEmi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmenq.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmenq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmenq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmfpass.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmfpass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmfpass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsbike.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmsbike.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmsbike.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmscust.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmscust.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmscust.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsEmp.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmsEmp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmsEmp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmubk.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmubk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmubk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmuc.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmuc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmuc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmuep.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmuep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmuep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm1.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>MDIForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="qq.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>qq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="qq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="bbb.resX">
+      <DependentUpon>bbb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resX">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resX">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form25.resX">
+      <DependentUpon>Form25.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnimated.resX">
+      <DependentUpon>frmAnimated.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbike.resX">
+      <DependentUpon>frmbike.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCust.resX">
+      <DependentUpon>frmCust.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmi.resX">
+      <DependentUpon>frmEmi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmenq.resX">
+      <DependentUpon>frmenq.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmfpass.resX">
+      <DependentUpon>frmfpass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resX">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsbike.resX">
+      <DependentUpon>frmsbike.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmscust.resX">
+      <DependentUpon>frmscust.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsEmp.resX">
+      <DependentUpon>frmsEmp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmubk.resX">
+      <DependentUpon>frmubk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmuc.resX">
+      <DependentUpon>frmuc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmuep.resX">
+      <DependentUpon>frmuep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm1.resX">
+      <DependentUpon>MDIForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qq.resX">
+      <DependentUpon>qq.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bikeDataSet.xsc">
+      <DependentUpon>bikeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bikeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bikeDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bikeDataSet.xss">
+      <DependentUpon>bikeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DATAREPORT1.dsr" />
+    <None Include="DATAREPORT2.dsr" />
+    <None Include="DATAREPORT3.dsr" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="_UpgradeReport.htm">
+      <SubType>Preview</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bike.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\b.JPG" />
+    <None Include="Resources\q1.JPG" />
+    <None Include="Resources\q.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

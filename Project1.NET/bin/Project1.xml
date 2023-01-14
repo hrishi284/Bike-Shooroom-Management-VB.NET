@@ -1,0 +1,175 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Project1
+</name>
+</assembly>
+<members>
+<member name="T:Project1.bikeDataSet.bikeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.customerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.emiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.employeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.enquiryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.qotationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.qotationwtioutaccessriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.bikeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.customerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.emiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.employeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.enquiryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.qotationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.qotationwtioutaccessriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Project1.bikeDataSet.bikeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.bikeDataSet.customerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.bikeDataSet.emiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.bikeDataSet.employeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.bikeDataSet.enquiryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.bikeDataSet.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.bikeDataSet.qotationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.bikeDataSet.qotationwtioutaccessriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Project1.bikeDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.bikeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.customerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.emiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.employeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.enquiryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.qotationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.qotationwtioutaccessriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Project1.bikeDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Project1.bikeDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Project1.bikeDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Project1.bikeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Project1.bikeDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Project1.bikeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Project1.bikeDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Project1.bikeDataSetTableAdapters.TableAdapterManager.UpdateAll(Project1.bikeDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Project1.bikeDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
